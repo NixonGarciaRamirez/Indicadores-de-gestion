@@ -3,16 +3,17 @@
 
 This is a project focused on data analytics for a logistics inventory model for a motorcycle assembly plant. Within it, a fictitious database is created using numpy random selection models and numpy random number generation models. Within the fictitiously created columns are the following:
 
-• Model: Specifies the type or model of motorcycle in the inventory. Each entry in this column represents a specific model, such as "Sport", "Cruiser", "Adventure", etc.
-• Suppliers: Lists the suppliers of parts or components needed to assemble the motorcycles. Includes information such as the supplier's name and contact details.
-• Inventory issues: Records any inventory-related issues, such as shortages, surpluses, damages or discrepancies. Helps in managing and resolving incidents.
-• Inventory movement: Details the inventory flow, recording inputs and outputs of parts. Includes information on dates, quantities, and reasons for movement (e.g., receipt of new parts, use in production, returns).
-• Parts_inventory: Maintains an up-to-date record of the number of parts available in inventory. Includes the name of the part, the quantity in stock, and possibly its location in the warehouse.
-• Purchase_orders: Contains information on purchase orders placed with suppliers, including details such as order date, supplier, parts requested, quantities, and order status.
-• Inventory_costs: Records the costs associated with maintaining inventory, including the cost of acquiring parts, storage, handling, and other related expenses.
-• Inventory_turnover: Indicates how often inventory is renewed or used in the production process. Helps identify efficiency in inventory management.
-• Customer_demands: Records customer requests and demands, providing information on which models and parts are in greatest demand. Helps in production and inventory planning.
-• Operational_efficiency: Measures the efficiency of operations related to inventory management, including metrics such as processing time, order fulfillment, and inventory accuracy.
+
+    • Model: Specifies the type or model of motorcycle in the inventory. Each entry in this column represents a specific model, such as "Sport", "Cruiser", "Adventure", etc.
+    • Suppliers: Lists the suppliers of parts or components needed to assemble the motorcycles. Includes information such as the supplier's name and contact details.
+    •  Inventory issues: Records any inventory-related issues, such as shortages, surpluses, damages or discrepancies. Helps in managing and resolving incidents.
+    •  Inventory movement: Details the inventory flow, recording inputs and outputs of parts. Includes information on dates, quantities, and reasons for movement (e.g., receipt of new parts, use in production, returns).
+    • Parts_inventory: Maintains an up-to-date record of the number of parts available in inventory. Includes the name of the part, the quantity in stock, and possibly its location in the warehouse.
+    • Purchase_orders: Contains information on purchase orders placed with suppliers, including details such as order date, supplier, parts requested, quantities, and order status.
+    • Inventory_costs: Records the costs associated with maintaining inventory, including the cost of acquiring parts, storage, handling, and other related expenses.
+    • Inventory_turnover: Indicates how often inventory is renewed or used in the production process. Helps identify efficiency in inventory management.
+    • Customer_demands: Records customer requests and demands, providing information on which models and parts are in greatest demand. Helps in production and inventory planning.
+    • Operational_efficiency: Measures the efficiency of operations related to inventory management, including metrics such as processing time, order fulfillment, and inventory accuracy.
 
 Something to highlight is that this project randomly introduces null data to the columns: 'Parts_inventory', 'Purchase_orders', 'Inventory_costs', 'Inventory_turnover', 'Customer_demands', 'Operational_efficiency', this in order to put into practice 2 methods of imputing null data: the one focused on imputing using the data mean and the KNN method, within the project to show the difference between the 2 methods a smoke mask was used so that when the data is graphed the imputed data can be seen graphically.
 
